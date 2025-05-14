@@ -1,0 +1,33 @@
+#!!!! UNNVERIFIED TEST PARAMETER FILE !!!!
+
+#This parameter file was created using the potentials.paramfile.Tersoff()
+#parameter file builder.  Parameters were extracted from the original
+#publication into a text file then converted into a LAMMPS-compatible format
+#using the Tersoff builder's abop() method.
+
+#!!!! CAUTION !!!! This implementation has not been verified! Use at your own
+#risk!
+
+#!!!! CAUTION !!!! This implementation was based on converting published ABOP
+#parameters into a LAMMPS-compatible Tersoff form.  The conversion follows the
+#published equations for the two formats and was checked against potentials in
+#which we have representations in both formats.  However, it is always possible
+#that something is incorrect in the conversion or that the conversion is invalid
+#for a particular potential due to some functional difference.
+
+#!!!! CAUTION !!!! While the ABOP parameters were verified against the original
+#publication, there's always a chance that the published parameters and property
+#results do not correspond to each other.  Numerous potentials are known to have
+#typos in reported parameters, results, equations, etc.  Whenever possible, use
+#implementations from the original potential developers themselves!
+
+
+#e1 e2  e3  m   gamma       lambda3 c         d        costheta0  n   beta lambda2            B                  Rcut  D    lambda1            A                  Z_i Z_j ZBLcut ZBLexpscale 
+Be  Be  Be  1   8.19587e-07 0.0     89.3894   0.27443  -0.7606934 1.0 1.0  1.3373593849680525 35.46007946735899  2.535 0.15 2.527368512900325  222.6758063238057  4   4   0.8    15.0        
+Be  Be  C   1   3.00184e-05 0.0     57.004094 0.358304 -0.559996  1.0 1.0  0.0                0.0                2.6   0.2  0.0                0.0                4   4   0.7    16.0        
+Be  C   Be  1   8.19587e-07 0.0     89.3894   0.27443  -0.7606934 1.0 1.0  0.0                0.0                2.535 0.15 0.0                0.0                4   6   0.8    15.0        
+Be  C   C   1   3.00184e-05 0.0     57.004094 0.358304 -0.559996  1.0 1.0  1.3490983055329717 62.686906304413164 2.6   0.2  3.7325826602774055 1380.6757546074552 4   6   0.7    16.0        
+C   Be  Be  1   3.00184e-05 0.0     57.004094 0.358304 -0.559996  1.0 1.0  1.3490983055329717 62.686906304413164 2.6   0.2  3.7325826602774055 1380.6757546074552 6   4   0.7    16.0        
+C   Be  C   1   0.00020813  0.0     330.0     3.5      -1.0       1.0 1.0  0.0                0.0                1.85  0.15 0.0                0.0                6   4   0.6    8.0         
+C   C   Be  1   3.00184e-05 0.0     57.004094 0.358304 -0.559996  1.0 1.0  0.0                0.0                2.6   0.2  0.0                0.0                6   6   0.7    16.0        
+C   C   C   1   0.00020813  0.0     330.0     3.5      -1.0       1.0 1.0  2.688774478590816  1397.072962447687  1.85  0.15 3.280304863880795  2605.8415729607395 6   6   0.6    8.0         

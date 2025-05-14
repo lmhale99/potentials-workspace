@@ -1,0 +1,33 @@
+#!!!! UNNVERIFIED TEST PARAMETER FILE !!!!
+
+#This parameter file was created using the potentials.paramfile.Tersoff()
+#parameter file builder.  Parameters were extracted from the original
+#publication into a text file then converted into a LAMMPS-compatible format
+#using the Tersoff builder's abop() method.
+
+#!!!! CAUTION !!!! This implementation has not been verified! Use at your own
+#risk!
+
+#!!!! CAUTION !!!! This implementation was based on converting published ABOP
+#parameters into a LAMMPS-compatible Tersoff form.  The conversion follows the
+#published equations for the two formats and was checked against potentials in
+#which we have representations in both formats.  However, it is always possible
+#that something is incorrect in the conversion or that the conversion is invalid
+#for a particular potential due to some functional difference.
+
+#!!!! CAUTION !!!! While the ABOP parameters were verified against the original
+#publication, there's always a chance that the published parameters and property
+#results do not correspond to each other.  Numerous potentials are known to have
+#typos in reported parameters, results, equations, etc.  Whenever possible, use
+#implementations from the original potential developers themselves!
+
+
+#e1 e2  e3  m   gamma    lambda3 c        d       costheta0 n   beta lambda2            B                  Rcut D    lambda1            A                  
+Ga  Ga  Ga  1   0.007874 1.846   1.918    0.75    -0.3013   1.0 1.0  1.4496970792622927 410.13170048006185 2.87 0.15 1.6091637579811449 535.1992682033992  
+Ga  Ga  N   1   0.001632 0.0     65.207   2.821   -0.518    1.0 1.0  0.0                0.0                2.9  0.2  0.0                0.0                
+Ga  N   Ga  1   0.007874 1.846   1.918    0.75    -0.3013   1.0 1.0  0.0                0.0                2.87 0.15 0.0                0.0                
+Ga  N   N   1   0.001632 0.0     65.207   2.821   -0.518    1.0 1.0  2.6390562469343104 3864.2674028818305 2.9  0.2  2.93515835784034   6136.436731930555  
+N   Ga  Ga  1   0.001632 0.0     65.207   2.821   -0.518    1.0 1.0  2.6390562469343104 3864.2674028818305 2.9  0.2  2.93515835784034   6136.436731930555  
+N   Ga  N   1   0.76612  0.0     0.178493 0.20172 -0.045238 1.0 1.0  0.0                0.0                2.2  0.2  0.0                0.0                
+N   N   Ga  1   0.001632 0.0     65.207   2.821   -0.518    1.0 1.0  0.0                0.0                2.9  0.2  0.0                0.0                
+N   N   N   1   0.76612  0.0     0.178493 0.20172 -0.045238 1.0 1.0  2.3842551670030017 423.7693264497686  2.2  0.2  3.557785560201879  1044.7746144569705 

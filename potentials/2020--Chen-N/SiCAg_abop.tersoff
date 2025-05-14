@@ -1,0 +1,52 @@
+#!!!! UNNVERIFIED TEST PARAMETER FILE !!!!
+
+#This parameter file was created using the potentials.paramfile.Tersoff()
+#parameter file builder.  Parameters were extracted from the original
+#publication into a text file then converted into a LAMMPS-compatible format
+#using the Tersoff builder's abop() method.
+
+#!!!! CAUTION !!!! This implementation has not been verified! Use at your own
+#risk!
+
+#!!!! CAUTION !!!! This implementation was based on converting published ABOP
+#parameters into a LAMMPS-compatible Tersoff form.  The conversion follows the
+#published equations for the two formats and was checked against potentials in
+#which we have representations in both formats.  However, it is always possible
+#that something is incorrect in the conversion or that the conversion is invalid
+#for a particular potential due to some functional difference.
+
+#!!!! CAUTION !!!! While the ABOP parameters were verified against the original
+#publication, there's always a chance that the published parameters and property
+#results do not correspond to each other.  Numerous potentials are known to have
+#typos in reported parameters, results, equations, etc.  Whenever possible, use
+#implementations from the original potential developers themselves!
+
+
+#e1 e2  e3  m   gamma    lambda3 c        d         costheta0 n   beta lambda2            B                  Rcut   D      lambda1           A                  
+Si  Si  Si  1   0.114354 0.0     2.00494  0.81472   -0.259    1.0 1.0  1.5381049333846057 219.52162426831347 2.82   0.14   2.833189287294444 2145.7127998557976 
+Si  Si  C   1   0.011877 0.0     273987.0 180.314   -0.68     1.0 1.0  0.0                0.0                2.4    0.2    0.0               0.0                
+Si  Si  Ag  1   1.8096   5.6133  212.4988 1168.7316 -0.546    1.0 1.0  0.0                0.0                2.7376 0.658  0.0               0.0                
+Si  C   Si  1   0.114354 0.0     2.00494  0.81472   -0.259    1.0 1.0  0.0                0.0                2.82   0.14   0.0               0.0                
+Si  C   C   1   0.011877 0.0     273987.0 180.314   -0.68     1.0 1.0  1.7680742125893942 225.1894805180968  2.4    0.2    3.265633070652611 1779.3614414399558 
+Si  C   Ag  1   1.8096   1.8873  212.4988 1168.7316 -0.546    1.0 1.0  0.0                0.0                2.7376 0.658  0.0               0.0                
+Si  Ag  Si  1   0.114354 0.8675  2.00494  0.81472   -0.259    1.0 1.0  0.0                0.0                2.82   0.14   0.0               0.0                
+Si  Ag  C   1   0.011877 5.5075  273987.0 180.314   -0.68     1.0 1.0  0.0                0.0                2.4    0.2    0.0               0.0                
+Si  Ag  Ag  1   1.8096   0.0     212.4988 1168.7316 -0.546    1.0 1.0  1.2084478042253692 59.93899050347431  2.7376 0.658  2.69423437952046  921.1674406948916  
+C   Si  Si  1   0.011877 0.0     273987.0 180.314   -0.68     1.0 1.0  1.7680742125893942 225.1894805180968  2.4    0.2    3.265633070652611 1779.3614414399558 
+C   Si  C   1   0.11233  0.0     181.91   6.28433   -0.5556   1.0 1.0  0.0                0.0                2.0    0.15   0.0               0.0                
+C   Si  Ag  1   0.9386   1.7257  3.5817   1.3679    -1.1155   1.0 1.0  0.0                0.0                3.7047 0.465  0.0               0.0                
+C   C   Si  1   0.011877 0.0     273987.0 180.314   -0.68     1.0 1.0  0.0                0.0                2.4    0.2    0.0               0.0                
+C   C   C   1   0.11233  0.0     181.91   6.28433   -0.5556   1.0 1.0  1.930900932868363  175.42665059955047 2.0    0.15   4.184262321525742 2019.8449017464711 
+C   C   Ag  1   0.9386   1.8583  3.5817   1.3679    -1.1155   1.0 1.0  0.0                0.0                3.7047 0.465  0.0               0.0                
+C   Ag  Si  1   0.011877 2.1706  273987.0 180.314   -0.68     1.0 1.0  0.0                0.0                2.4    0.2    0.0               0.0                
+C   Ag  C   1   0.11233  0.7255  181.91   6.28433   -0.5556   1.0 1.0  0.0                0.0                2.0    0.15   0.0               0.0                
+C   Ag  Ag  1   0.9386   0.0     3.5817   1.3679    -1.1155   1.0 1.0  0.9372848159703082 17.89321198810248  3.7047 0.465  3.657941451287322 964.4555508625496  
+Ag  Si  Si  1   1.8096   0.336   212.4988 1168.7316 -0.546    1.0 1.0  1.2084478042253692 59.93899050347431  2.7376 0.658  2.69423437952046  921.1674406948916  
+Ag  Si  C   1   0.9386   0.6459  3.5817   1.3679    -1.1155   1.0 1.0  0.0                0.0                3.7047 0.465  0.0               0.0                
+Ag  Si  Ag  1   0.0363   1.342   1.2181   0.2704    0.1474    1.0 1.0  0.0                0.0                3.7982 0.2589 0.0               0.0                
+Ag  C   Si  1   1.8096   1.1482  212.4988 1168.7316 -0.546    1.0 1.0  0.0                0.0                2.7376 0.658  0.0               0.0                
+Ag  C   C   1   0.9386   -0.6508 3.5817   1.3679    -1.1155   1.0 1.0  0.9372848159703082 17.89321198810248  3.7047 0.465  3.657941451287322 964.4555508625496  
+Ag  C   Ag  1   0.0363   1.342   1.2181   0.2704    0.1474    1.0 1.0  0.0                0.0                3.7982 0.2589 0.0               0.0                
+Ag  Ag  Si  1   1.8096   0.0     212.4988 1168.7316 -0.546    1.0 1.0  0.0                0.0                2.7376 0.658  0.0               0.0                
+Ag  Ag  C   1   0.9386   0.0     3.5817   1.3679    -1.1155   1.0 1.0  0.0                0.0                3.7047 0.465  0.0               0.0                
+Ag  Ag  Ag  1   0.0363   1.342   1.2181   0.2704    0.1474    1.0 1.0  1.0429706991278744 33.62657539992885  3.7982 0.2589 4.200877381947252 29633.28811256642  
